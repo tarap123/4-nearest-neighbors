@@ -1,0 +1,4 @@
+model,threshold,balanced_accuracy,accuracy,damage_precision,damage_recall,damage_f1,params,rf_weight,hgb_weight
+RandomForest full train,0.13,0.8259421915236376,0.8277717098935494,0.2454357955847529,0.8238461538461539,0.3782002236478135,"{'class_weight': {0: 1, 1: 6}, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'n_estimators': 150}",,
+HistGradientBoosting full train,0.27,0.8292972453852805,0.8228648745578142,0.24184702045656686,0.8366666666666667,0.375229990800368,"{'class_weight': {0: 1, 1: 6}, 'l2_regularization': 0.1, 'learning_rate': 0.05, 'max_iter': 200, 'max_leaf_nodes': 31, 'min_samples_leaf': 30}",,
+RF + HGB ensemble,0.19,0.8317110160930992,0.8226855549940498,0.24245108896271686,0.8420512820512821,0.3764975637718544,,0.55,0.44999999999999996
